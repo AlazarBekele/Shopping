@@ -1,22 +1,33 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shopping Moll</title>
 
-    <!-- Link Css Folder -->
+    <!-- Html Heading -->
+    {% include "include/head.html" %}
 
     <link rel="stylesheet" href="{% static 'General.css' %}">
 
-</head>
 <body>
     
     <div>
 
+        <div class="HeadingImg">
+            <h1>Welcome</h1>
+        </div>
+
         <div>
-            <img src="/media/{{Img.image}}" alt="Img">
+
+            <div>
+                <img src="" alt="">
+            </div>
+
+            <div class="input-group flex-nowrap">
+                <span class="input-group-text" id="addon-wrapping">@</span>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+            </div>
+
+            
+
         </div>
 
     </div>

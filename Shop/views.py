@@ -1,23 +1,16 @@
 from django.shortcuts import render
-from .models import HeaderImg, News
+from .models import News
 
 # Create your views here.
 
-def index (request):
-
-    Img = HeaderImg.objects.filter()[:1]
-
-    context = {
-        'Img' : Img
-    }
-
-    return render (request,'index.html',context=context)
 
 def Text(request):
     Text = News.objects.filter().order_by('-title')
-
+    imagepost = News.objects.all()
+    
     context = {
-        'Text' : Text
+        'Text' : Text,
+        'imagepost' : imagepost
     }
 
     return render (request, 'index.html', context=context)
