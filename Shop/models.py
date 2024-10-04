@@ -18,3 +18,11 @@ class Main_upload (models.Model):
 
     def __str__(self) -> str:
         return self.title
+    
+class BackgroundImg (models.Model):
+
+    title = models.CharField (max_length=20)
+    picture = models.ImageField (upload_to='photo/')
+
+    def __str__(self) -> str:
+        return self.title
