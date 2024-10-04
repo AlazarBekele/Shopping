@@ -1,16 +1,13 @@
 from django.shortcuts import render
-from .models import News
+from .models import Obj
 
 # Create your views here.
 
+def index (request):
+    apply = Obj.objects.all()
 
-def Text(request):
-    Text = News.objects.filter().order_by('-title')
-    imagepost = News.objects.all()
-    
     context = {
-        'Text' : Text,
-        'imagepost' : imagepost
+        'apply' : apply
     }
 
     return render (request, 'index.html', context=context)
