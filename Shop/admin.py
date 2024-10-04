@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Obj
+from .models import Main_upload
 
 # Register your models here.
-admin.site.register(Obj)
+admin.site.register(Main_upload)

@@ -1,10 +1,10 @@
 from django.shortcuts import render
-from .models import Obj
+from .models import Main_upload
 
 # Create your views here.
 
-def index (request):
-    apply = Obj.objects.all()
+def main_page (request):
+    apply = Main_upload.objects.all()
 
     context = {
         'apply' : apply
