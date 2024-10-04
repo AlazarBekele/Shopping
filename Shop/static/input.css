@@ -1,7 +1,7 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 .HeadingImg {
     width: 100%;
+}
+.boxshao {
+    box-shadow: 0px 5px 25px gray;
 }

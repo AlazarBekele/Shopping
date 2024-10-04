@@ -12,42 +12,41 @@
     <div>
 
         <div>
+    
+            <div class="d-flex justify-content-center gap-x-5">
 
-            {% for apply in apply %}
-    
-            <div>
-    
-                <div class="HeadingImg">
-                    <h1 class="underline decoration-sky-50">{{apply.title}}</h1>
-                </div>
-        
-                <div>
-        
+                <!-- {% for apply in apply %} -->
+
+                <div class="boxshao">
+
                     <div>
-                        <img src="/media/{{apply.image}}" alt="">
+                        <img style="width: 200px;" src="/media/{{apply.image}}" alt="">
                     </div>
-        
+
+                    <div>
+                        <h1 class="underline decoration-sky-50">{{apply.title}}</h1>
+                    </div>
+
                 </div>
-    
+
+                <!-- {%endfor%} -->
+
             </div>
-    
-            {%endfor%}
     
         </div>
 
         
-        <div>
+        <!-- <div>
 
             {% for BackgroundImg in BackgroundImg %}
         
             <div>
-                <img src="/media/{{BackgroundImg.picture}}" alt="no">
-                <h1>hello</h1>
+                <img src="/media/{{BackgroundImg.picture}}" alt="">
             </div>
     
             {% endfor %}
 
-        </div>
+        </div> -->
 
     </div>
  
