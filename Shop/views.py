@@ -4,7 +4,7 @@ from .models import Main_upload
 # Create your views here.
 
 def main_page (request):
-    apply = Main_upload.objects.all()
+    apply = Main_upload.objects.filter().order_by('-title')[:4]
 
     context = {
         'apply' : apply
