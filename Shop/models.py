@@ -14,6 +14,7 @@ class Main_upload (models.Model):
     image = models.ImageField (upload_to='photo/')
     detail = models.TextField ()
     price = models.IntegerField ()
+    catagory = models.ForeignKey(Catagory, on_delete=models.SET_NULL, null=True, blank=True)
 
     def __str__(self) -> str:
         return self.title
