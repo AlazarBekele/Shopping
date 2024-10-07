@@ -6,6 +6,7 @@
     {% include "include/head.html" %}
 
     <link rel="stylesheet" href="{% static 'input.css' %}">
+    <link rel="stylesheet" href="{% static 'General.css' %}">
 
 <body>
     
@@ -13,31 +14,64 @@
 
         <div>
 
-            <div class="w-100">
+            <div class="ShoppingImg">
 
-                <div>
-                    <img src="/media/{{}}" alt="">
-                </div>
-
-            </div>
-    
-            <div class="d-flex justify-content-center">
-
-                <!-- {% for apply in apply %} -->
-
-                <div class="boxshao">
+                <div class="Navbar">
 
                     <div>
-                        <img style="width: 200px;" src="/media/{{apply.image}}" alt="">
+                        <img class="Logo" src="https://img.icons8.com/?size=100&id=64243&format=png&color=000000" alt="">
                     </div>
 
                     <div>
-                        <h1 class="underline decoration-sky-50">{{apply.title}}</h1>
+                        <input type="text" class="form-control inputMain" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+
+                    <div class="ordered">
+
+                        <img class="iconsSize" src="https://img.icons8.com/?size=100&id=42424&format=png&color=000000" alt="">
+
+                        <img class="iconsSize" src="https://img.icons8.com/?size=100&id=gApPmBfBhHWY&format=png&color=000000" alt="">
+
+                    </div>
+
+                    <div>
+                        <img class="profile" src="https://img.icons8.com/?size=100&id=82430&format=png&color=000000" alt="">
                     </div>
 
                 </div>
 
-                <!-- {%endfor%} -->
+                <div class="Cardcontain">
+
+                    <div class="Mainbox">
+                        
+                        <div>
+                            <img class="BoxImg" src="/media/real state.jpg" alt="">
+                        </div>
+
+                        <div>
+                            <h2 class="money">$250,000</h2>
+                            <h5 class="ForSell">For Sell</h5>
+                        </div>
+
+                        <div class="states">
+                            <h4>5 bed-vela</h4>
+                        </div>
+
+                        <div class="location">
+                            <h5>Addis abeba, 22</h5>
+                        </div>
+
+                        <div class="bedRoom">
+                            
+                        </div>
+
+                        <div class="profileOfSeller">
+
+                        </div>
+
+                    </div>
+
+                </div>
 
             </div>
     

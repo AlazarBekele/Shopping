@@ -18,11 +18,3 @@ class Main_upload (models.Model):
 
     def __str__(self) -> str:
         return self.title
-    
-class FrontImg (models.Model):
-
-    ImgName = models.CharField (max_length=25)
-    image = models.ImageField (upload_to='Front/')
-
-    def __str__(self) -> str:
-        return self.ImgName

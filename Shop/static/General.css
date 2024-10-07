@@ -1,0 +1,61 @@
+body {
+    padding: 10px 25px 0px 25px;
+}
+.ShoppingImg {
+    width: 100%;
+    height: 75vh;
+    background: linear-gradient(45deg, rgb(126, 3, 209), rgb(1, 81, 201));
+    border: none;
+    box-shadow: 0px 25px 28px #adadad;
+    border-radius: 10px;
+}
+
+.Navbar {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.inputMain {
+    width: 600px;
+    height: 7vh;
+    filter: invert(100%) sepia(0%) saturate(4%) hue-rotate(315deg) brightness(118%) contrast(70%);
+}
+
+.ordered {
+    display: flex;
+    justify-content: start;
+}
+
+.Logo {
+    width: 70px;
+}
+
+.iconsSize {
+    width: 40px;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(253deg) brightness(100%) contrast(103%);
+}
+
+.profile {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+/* Main Box Start */
+
+.BoxImg {
+    width: 290px;
+    border-radius: 8px;
+}
+
+.Mainbox {
+    width: 290px;
+    background-color: white;
+    box-shadow: 0px 15px 20px gray;
+    border-radius: 8px;
+}
