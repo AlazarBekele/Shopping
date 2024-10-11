@@ -1,6 +1,5 @@
 from django.urls import path
-from .views import main_page
-
+from .views import upload_Render
 urlpatterns = [
-     path ('', main_page, name='index')
+    path('', upload_Render, name='upload_Render' )
 ]
