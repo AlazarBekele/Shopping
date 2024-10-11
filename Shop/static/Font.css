@@ -16,6 +16,25 @@
     font-size: 15px;
 }  
 
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+
+  .afacad-flux {
+    font-family: "Afacad Flux";
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+
+
 .FontWidth {
     font-size: 13px;
+    color: rgb(107, 107, 107);
+    margin-bottom: 0;
 }

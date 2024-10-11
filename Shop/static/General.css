@@ -51,7 +51,8 @@ body {
 .BoxImg {
     width: 290px;
     height: 180px;
-    border-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 .Mainbox {
@@ -66,9 +67,55 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 10px 10px 0px 10px;
 }
 
 .locateIcon {
     width: 15px;
+}
+
+.ForSell {
+    color: rgb(205, 99, 0);
+    border: 1px solid rgb(254, 188, 126);
+    background-color: rgb(254, 188, 126);
+    padding: 5px 7px 5px 7px;
+    border-radius: 20px;
+}
+
+.detail {
+    margin: 10px 15px 10px 15px;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bedicons {
+    width: 20px;
+}
+
+.bedRoom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.beddetail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+.profileOfSeller {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+}
+
+
+.contactInfo {
+    display: block;
 }
