@@ -43,27 +43,29 @@
 
                 <div class="CardFlex">
 
+                    {% for reader in reader %}
+
                     <div class="Cardcontain">
 
                         <div class="Mainbox">
                             
                             <div>
-                                <img class="BoxImg" src="/media/real state.jpg" alt="">
+                                <img class="BoxImg" src="/media/{{reader.image}}" alt="">
                             </div>
     
                             <div class="detail">
     
                                 <div class="flexMoney">
-                                    <h5 class="money afacad-flux">$2,500,000</h5>
+                                    <h5 class="money afacad-flux">{{reader.price}}</h5>
                                     <h6 class="ForSell">For Sell</h6>
                                 </div>
         
                                 <div class="states">
-                                    <h5 class="afacad-flux">Luxury 5-Bed Villa</h5>
+                                    <h5 class="afacad-flux">{{reader.title}}</h5>
                                 </div>
         
                                 <div class="location">
-                                    <p class="FontWidth roboto-medium"><img class="locateIcon" src="https://img.icons8.com/?size=100&id=MdSZHKLWwInB&format=png&color=000000" alt=""> 29 Terrace Rd, BH2 5EL</p>
+                                    <p class="FontWidth roboto-medium"><img class="locateIcon" src="https://img.icons8.com/?size=100&id=MdSZHKLWwInB&format=png&color=000000" alt="">{{reader.location}}</p>
                                 </div>
     
                                 <hr style="border-color: gray; margin: 10px 0px 14px 0px;">
@@ -73,13 +75,13 @@
                                     <div class="beddetail">
                                         <img class="bedicons" src="https://img.icons8.com/?size=100&id=hw6jfarOIhKJ&format=png&color=000000" alt="">
     
-                                        <h6 style="font-size: 11px; margin: 0;">1634 sqft</h6>
+                                        <h6 style="font-size: 11px; margin: 0;">{{reader.length}} sqft</h6>
                                     </div>
     
                                     <div class="beddetail">
                                         <img width="24" height="24" src="https://img.icons8.com/forma-thin/24/bed.png" alt="bed"/>
     
-                                        <h6 style="font-size: 11px; margin: 0;">5 bed.</h6>
+                                        <h6 style="font-size: 11px; margin: 0;">{{reader.bed}} bed.</h6>
                                     </div>
     
                                     <div class="beddetail">
@@ -89,7 +91,7 @@
                                         </div>
                                         
                                         <div>
-                                            <h6 style="font-size: 11px; margin: 0;">3 bath.</h6>
+                                            <h6 style="font-size: 11px; margin: 0;">{{reader.bath}} bath.</h6>
                                         </div>
     
                                     </div>
@@ -101,12 +103,12 @@
                                 <div class="profileOfSeller">
                                     
                                     <div style="display: inline-block;">
-                                        <img width="40" height="40" src="https://img.icons8.com/tiny-color/64/user-male-circle.png" alt="user-male-circle"/>
+                                        <img width="40" height="40" src="/media/{{reader.profileImg}}" alt="user-male-circle"/>
                                     </div>
     
                                     <div class="contactInfo">
-                                        <h5 style="width: 180px; font-size: 15px; margin: 0;">Alazar Bekele</h5>
-                                        <p style="width: 130px; font-size: 13px;">+251 715 351 962</p>
+                                        <h5 style="width: 180px; font-size: 15px; margin: 0;">{{reader.profileOwner}}</h5>
+                                        <p style="width: 130px; font-size: 13px;">+{{reader.profilePhone}}</p>
                                     </div>
     
                                 </div>
@@ -117,227 +119,7 @@
     
                     </div>
 
-                    <div class="Cardcontain">
-
-                        <div class="Mainbox">
-                            
-                            <div>
-                                <img class="BoxImg" src="/media/sell-electronics-online.jpg" alt="">
-                            </div>
-    
-                            <div class="detail">
-    
-                                <div class="flexMoney">
-                                    <h5 class="money afacad-flux">$2,500,000</h5>
-                                    <h6 class="ForSell">For Sell</h6>
-                                </div>
-        
-                                <div class="states">
-                                    <h5 class="afacad-flux">Luxury 5-Bed Villa</h5>
-                                </div>
-        
-                                <div class="location">
-                                    <p class="FontWidth roboto-medium"><img class="locateIcon" src="https://img.icons8.com/?size=100&id=MdSZHKLWwInB&format=png&color=000000" alt=""> 29 Terrace Rd, BH2 5EL</p>
-                                </div>
-    
-                                <hr style="border-color: gray; margin: 10px 0px 14px 0px;">
-        
-                                <div class="bedRoom">
-    
-                                    <div class="beddetail">
-                                        <img class="bedicons" src="https://img.icons8.com/?size=100&id=hw6jfarOIhKJ&format=png&color=000000" alt="">
-    
-                                        <h6 style="font-size: 11px; margin: 0;">1634 sqft</h6>
-                                    </div>
-    
-                                    <div class="beddetail">
-                                        <img width="24" height="24" src="https://img.icons8.com/forma-thin/24/bed.png" alt="bed"/>
-    
-                                        <h6 style="font-size: 11px; margin: 0;">5 bed.</h6>
-                                    </div>
-    
-                                    <div class="beddetail">
-    
-                                        <div>
-                                            <img width="24" height="24" src="https://img.icons8.com/forma-thin/24/shower-and-tub.png" alt="shower-and-tub"/>
-                                        </div>
-                                        
-                                        <div>
-                                            <h6 style="font-size: 11px; margin: 0;">3 bath.</h6>
-                                        </div>
-    
-                                    </div>
-                                    
-                                </div>
-    
-                                <hr style="border-color: gray; margin: 10px 0px 14px 0px;">
-        
-                                <div class="profileOfSeller">
-                                    
-                                    <div style="display: inline-block;">
-                                        <img width="40" height="40" src="https://img.icons8.com/tiny-color/64/user-male-circle.png" alt="user-male-circle"/>
-                                    </div>
-    
-                                    <div class="contactInfo">
-                                        <h5 style="width: 180px; font-size: 15px; margin: 0;">Alazar Bekele</h5>
-                                        <p style="width: 130px; font-size: 13px;">+251 715 351 962</p>
-                                    </div>
-    
-                                </div>
-    
-                            </div>
-    
-                        </div>
-    
-                    </div>
-
-                    <div class="Cardcontain">
-
-                        <div class="Mainbox">
-                            
-                            <div>
-                                <img class="BoxImg" src="/media/real estate 3.jpg" alt="">
-                            </div>
-    
-                            <div class="detail">
-    
-                                <div class="flexMoney">
-                                    <h5 class="money afacad-flux">$2,500,000</h5>
-                                    <h6 class="ForSell">For Sell</h6>
-                                </div>
-        
-                                <div class="states">
-                                    <h5 class="afacad-flux">Luxury 5-Bed Villa</h5>
-                                </div>
-        
-                                <div class="location">
-                                    <p class="FontWidth roboto-medium"><img class="locateIcon" src="https://img.icons8.com/?size=100&id=MdSZHKLWwInB&format=png&color=000000" alt=""> 29 Terrace Rd, BH2 5EL</p>
-                                </div>
-    
-                                <hr style="border-color: gray; margin: 10px 0px 14px 0px;">
-        
-                                <div class="bedRoom">
-    
-                                    <div class="beddetail">
-                                        <img class="bedicons" src="https://img.icons8.com/?size=100&id=hw6jfarOIhKJ&format=png&color=000000" alt="">
-    
-                                        <h6 style="font-size: 11px; margin: 0;">1634 sqft</h6>
-                                    </div>
-    
-                                    <div class="beddetail">
-                                        <img width="24" height="24" src="https://img.icons8.com/forma-thin/24/bed.png" alt="bed"/>
-    
-                                        <h6 style="font-size: 11px; margin: 0;">5 bed.</h6>
-                                    </div>
-    
-                                    <div class="beddetail">
-    
-                                        <div>
-                                            <img width="24" height="24" src="https://img.icons8.com/forma-thin/24/shower-and-tub.png" alt="shower-and-tub"/>
-                                        </div>
-                                        
-                                        <div>
-                                            <h6 style="font-size: 11px; margin: 0;">3 bath.</h6>
-                                        </div>
-    
-                                    </div>
-                                    
-                                </div>
-    
-                                <hr style="border-color: gray; margin: 10px 0px 14px 0px;">
-        
-                                <div class="profileOfSeller">
-                                    
-                                    <div style="display: inline-block;">
-                                        <img width="40" height="40" src="https://img.icons8.com/tiny-color/64/user-male-circle.png" alt="user-male-circle"/>
-                                    </div>
-    
-                                    <div class="contactInfo">
-                                        <h5 style="width: 180px; font-size: 15px; margin: 0;">Alazar Bekele</h5>
-                                        <p style="width: 130px; font-size: 13px;">+251 715 351 962</p>
-                                    </div>
-    
-                                </div>
-    
-                            </div>
-    
-                        </div>
-    
-                    </div>
-
-                    <div class="Cardcontain">
-
-                        <div class="Mainbox">
-                            
-                            <div>
-                                <img class="BoxImg" src="/media/real estate 4.jpg" alt="">
-                            </div>
-    
-                            <div class="detail">
-    
-                                <div class="flexMoney">
-                                    <h5 class="money afacad-flux">$2,500,000</h5>
-                                    <h6 class="ForSell">For Sell</h6>
-                                </div>
-        
-                                <div class="states">
-                                    <h5 class="afacad-flux">Luxury 5-Bed Villa</h5>
-                                </div>
-        
-                                <div class="location">
-                                    <p class="FontWidth roboto-medium"><img class="locateIcon" src="https://img.icons8.com/?size=100&id=MdSZHKLWwInB&format=png&color=000000" alt=""> 29 Terrace Rd, BH2 5EL</p>
-                                </div>
-    
-                                <hr style="border-color: gray; margin: 10px 0px 14px 0px;">
-        
-                                <div class="bedRoom">
-    
-                                    <div class="beddetail">
-                                        <img class="bedicons" src="https://img.icons8.com/?size=100&id=hw6jfarOIhKJ&format=png&color=000000" alt="">
-    
-                                        <h6 style="font-size: 11px; margin: 0;">1634 sqft</h6>
-                                    </div>
-    
-                                    <div class="beddetail">
-                                        <img width="24" height="24" src="https://img.icons8.com/forma-thin/24/bed.png" alt="bed"/>
-    
-                                        <h6 style="font-size: 11px; margin: 0;">5 bed.</h6>
-                                    </div>
-    
-                                    <div class="beddetail">
-    
-                                        <div>
-                                            <img width="24" height="24" src="https://img.icons8.com/forma-thin/24/shower-and-tub.png" alt="shower-and-tub"/>
-                                        </div>
-                                        
-                                        <div>
-                                            <h6 style="font-size: 11px; margin: 0;">3 bath.</h6>
-                                        </div>
-    
-                                    </div>
-                                    
-                                </div>
-    
-                                <hr style="border-color: gray; margin: 10px 0px 14px 0px;">
-        
-                                <div class="profileOfSeller">
-                                    
-                                    <div style="display: inline-block;">
-                                        <img width="40" height="40" src="https://img.icons8.com/tiny-color/64/user-male-circle.png" alt="user-male-circle"/>
-                                    </div>
-    
-                                    <div class="contactInfo">
-                                        <h5 style="width: 180px; font-size: 15px; margin: 0;">Alazar Bekele</h5>
-                                        <p style="width: 130px; font-size: 13px;">+251 715 351 962</p>
-                                    </div>
-    
-                                </div>
-    
-                            </div>
-    
-                        </div>
-    
-                    </div>
+                    {% endfor %}
 
                 </div>
 

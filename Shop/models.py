@@ -11,7 +11,7 @@ class UploadContainer (models.Model):
     
     title = models.CharField (max_length=40)
     image = models.ImageField (upload_to='house/')
-    price = models.IntegerField ()
+    price = models.CharField (max_length=20)
     length = models.FloatField ()
     bed = models.IntegerField ()
     bath = models.IntegerField ()
