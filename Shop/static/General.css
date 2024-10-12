@@ -1,3 +1,6 @@
+body {
+    padding: 0px 0px 50px 0px;
+}
 .ShoppingImg {
     overflow: hidden;
     width: 100%;
@@ -126,11 +129,28 @@
 
 .MainOne {
     padding: 10px 25px 0px 25px;
+    margin-bottom: 50px;
 }
 
 .MainTwo {
-    top: 30px;
+    background-image: url(https://img.freepik.com/free-photo/full-shot-man-running-with-shopping-bags_23-2149220644.jpg?t=st=1728743843~exp=1728747443~hmac=9e52bda8c54936451dfff4a29e3bf61d21b841df602312941af48331fc6d6df4&w=1060);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     left: 0;
     right: 0;
-    background-color: black;
+    background-color: rgb(149, 248, 255);
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+.secImg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.title {
+    padding-top: 15px;
 }

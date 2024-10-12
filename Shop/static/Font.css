@@ -38,3 +38,10 @@
     color: rgb(107, 107, 107);
     margin-bottom: 0;
 }
+
+.jost {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}

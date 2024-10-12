@@ -24,3 +24,11 @@ class UploadContainer (models.Model):
 
     def __str__(self) -> str:
         return self.title
+    
+class SecondImg (models.Model):
+
+    title = models.CharField (max_length=20)
+    picture = models.ImageField (upload_to='BackgroundImg')
+
+    def __str__(self) -> str:
+        return self.title
