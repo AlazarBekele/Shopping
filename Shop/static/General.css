@@ -3,6 +3,7 @@ body {
 }
 .ShoppingImg {
     overflow: hidden;
+    margin: 20px 0px 0px 0px;
     width: 100%;
     height: 75vh;
     background: linear-gradient(45deg, rgb(126, 3, 209), rgb(1, 81, 201));
@@ -133,15 +134,18 @@ body {
 }
 
 .MainTwo {
-    background-image: url(https://img.freepik.com/free-photo/full-shot-man-running-with-shopping-bags_23-2149220644.jpg?t=st=1728743843~exp=1728747443~hmac=9e52bda8c54936451dfff4a29e3bf61d21b841df602312941af48331fc6d6df4&w=1060);
+    background-image: url(https://img.freepik.com/free-photo/exited-black-woman-with-white-shopping-bag-standing-yellow-background-trendy-spring-fashionable-look_273443-19.jpg?t=st=1728844324~exp=1728847924~hmac=46f3bd2a0d21c33c22ef99f1ad0ac86804734387037fe39882f2381f3bfaa639&w=1380);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     left: 0;
     right: 0;
     background-color: rgb(149, 248, 255);
-    text-align: center;
     padding: 10px 10px 10px 10px;
+}
+
+.cont {
+    text-align: center;
 }
 
 .secImg {
@@ -152,5 +156,19 @@ body {
 }
 
 .title {
-    padding-top: 15px;
+    padding: 15px 0px 20px 0px;
+    color: white;
+}
+
+.SecondCardContainer {
+    color: white;
+    display: inline-block;
+    transition: 0.5s;}
+
+.SecondCardContainer :hover {
+    background-image: url(https://img.freepik.com/free-photo/medium-shot-man-playing-basketball_23-2150910660.jpg?t=st=1728846074~exp=1728849674~hmac=daa47661e82526a1902e0213c0c1ea22492b75c32083767b83afbdf72442a153&w=1060);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
 }
