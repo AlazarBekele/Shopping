@@ -13,6 +13,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
 
+    {% comment %} <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ruge+Boogie&display=swap" rel="stylesheet"> {% endcomment %}
+
     <link rel="stylesheet" href="{% static 'input.css' %}">
     <link rel="stylesheet" href="{% static 'General.css' %}">
     <link rel="stylesheet" href="{% static 'Font.css' %}">
@@ -22,182 +26,23 @@
     
     <div>
 
-        <div class="MainTwo">
-
-            <div class="playfair-display cont">
-                <h1 class="playfair-display title">What You need?</h1>
-                <h5 style="color: white; margin-bottom: 30px;">Discover Our New Must-Haves and Let Yourself Shine.</h5>
+        <div class="Navbar bg-primary bg-gradient">
+            
+            <div>
+                <img class="logoImg" src="/media/logo.png" alt="">
             </div>
 
-            <div style="display: flex; justify-content: space-evenly; color: white; margin-bottom: 15px;">
-
-                    <div class="SecondCardContainer">
-
-                        <h3 style="padding: 40px 25px 40px 25px; border-radius: 5px; transition: 0.5s;">Sport</h3>
-
-                    </div>
-
-                    <div class="SecondCardContainer2">
-
-                        <h3 style="padding: 40px 25px 40px 25px; border-radius: 5px; transition: 0.5s;">Music</h3>
-
-                    </div>
-
-                    <div class="SecondCardContainer3">
-
-                        <h3 style="padding: 40px 25px 40px 25px; border-radius: 5px; transition: 0.5s;">Kids</h3>
-
-                    </div>
-
-                    <div class="SecondCardContainer4">
-
-                        <h3 style="padding: 40px 25px 40px 25px; border-radius: 5px; transition: 0.5s;">Electronics</h3>
-
-                    </div>
-
-                    <div class="SecondCardContainer5">
-
-                        <h3 style="padding: 40px 25px 40px 25px; border-radius: 5px; transition: 0.5s;">Clothes</h3>
-
-                    </div>
-
-                    <div class="SecondCardContainer6">
-
-                        <h3 style="padding: 40px 25px 40px 25px; border-radius: 5px; transition: 0.5s;">Pets</h3>
-
-                    </div>
-
-                    <div class="SecondCardContainer7">
-
-                        <h3 style="padding: 40px 25px 40px 25px; border-radius: 5px; transition: 0.5s;">Construction</h3>
-
-                    </div>
-
-                    <div class="SecondCardContainer8">
-
-                        <h3 style="padding: 40px 25px 40px 25px; border-radius: 5px; transition: 0.5s;">Health & Beauty</h3>
-
-                    </div>
-
+            <div>
+                
             </div>
 
         </div>
 
-        <div class="Navbar">
+        {% include "include/WelcomPage.html" %}
 
-            <div>
-                <img class="Logo" src="https://img.icons8.com/?size=100&id=64243&format=png&color=000000" alt="">
-            </div>
+        {% include "include/First.html" %}
 
-            <div>
-                <input type="text" class="form-control inputMain" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1">
-            </div>
-
-            <div class="ordered">
-
-                <img class="iconsSize" src="https://img.icons8.com/?size=100&id=42424&format=png&color=000000" alt="">
-
-                <img class="iconsSize" src="https://img.icons8.com/?size=100&id=gApPmBfBhHWY&format=png&color=000000" alt="">
-
-            </div>
-
-            <div>
-                <img class="profile" src="https://img.icons8.com/?size=100&id=82430&format=png&color=000000" alt="">
-            </div>
-
-        </div>
-
-        <div class="MainOne">
-
-            <div class="ShoppingImg">
-
-                <h1 class="roboto-slab">Special Selling</h1>
-
-                <div class="CardFlex">
-
-                    {% for reader in reader %}
-
-                    <div class="Cardcontain">
-
-                        <div class="Mainbox">
-                            
-                            <div>
-                                <img class="BoxImg" src="/media/{{reader.image}}" alt="">
-                            </div>
-    
-                            <div class="detail">
-    
-                                <div class="flexMoney">
-                                    <h5 class="money afacad-flux">{{reader.price}}</h5>
-                                    <h6 class="ForSell">For Sell</h6>
-                                </div>
-        
-                                <div class="states">
-                                    <h5 class="afacad-flux">{{reader.title}}</h5>
-                                </div>
-        
-                                <div class="location">
-                                    <p class="FontWidth roboto-medium"><img class="locateIcon" src="https://img.icons8.com/?size=100&id=MdSZHKLWwInB&format=png&color=000000" alt="">{{reader.location}}</p>
-                                </div>
-    
-                                <hr style="border-color: gray; margin: 10px 0px 14px 0px;">
-        
-                                <div class="bedRoom">
-    
-                                    <div class="beddetail">
-                                        <img class="bedicons" src="https://img.icons8.com/?size=100&id=hw6jfarOIhKJ&format=png&color=000000" alt="">
-    
-                                        <h6 style="font-size: 11px; margin: 0;">{{reader.length}} sqft</h6>
-                                    </div>
-    
-                                    <div class="beddetail">
-                                        <img width="24" height="24" src="https://img.icons8.com/forma-thin/24/bed.png" alt="bed"/>
-    
-                                        <h6 style="font-size: 11px; margin: 0;">{{reader.bed}} bed.</h6>
-                                    </div>
-    
-                                    <div class="beddetail">
-    
-                                        <div>
-                                            <img width="24" height="24" src="https://img.icons8.com/forma-thin/24/shower-and-tub.png" alt="shower-and-tub"/>
-                                        </div>
-                                        
-                                        <div>
-                                            <h6 style="font-size: 11px; margin: 0;">{{reader.bath}} bath.</h6>
-                                        </div>
-    
-                                    </div>
-                                    
-                                </div>
-    
-                                <hr style="border-color: gray; margin: 10px 0px 14px 0px;">
-        
-                                <div class="profileOfSeller">
-                                    
-                                    <div style="display: inline-block;">
-                                        <img width="40" height="40" src="/media/{{reader.profileImg}}" alt="user-male-circle"/>
-                                    </div>
-    
-                                    <div class="contactInfo">
-                                        <h5 style="width: 180px; font-size: 15px; margin: 0;">{{reader.profileOwner}}</h5>
-                                        <p style="width: 130px; font-size: 13px;">+{{reader.profilePhone}}</p>
-                                    </div>
-    
-                                </div>
-    
-                            </div>
-    
-                        </div>
-    
-                    </div>
-
-                    {% endfor %}
-
-                </div>
-
-            </div>
-    
-        </div>
+        {% include "include/Middle.html" %}
 
     </div>
  

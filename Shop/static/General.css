@@ -18,12 +18,7 @@ body {
 }
 
 .Navbar {
-    padding-top: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .inputMain {
@@ -128,7 +123,7 @@ body {
 }
 
 .MainOne {
-    margin: 0px 20px 0px 20px;
+    margin: 20px 20px 0px 20px;
 }
 
 .MainTwo {
@@ -156,4 +151,41 @@ body {
 .title {
     padding: 15px 0px 20px 0px;
     color: white;
+}
+
+.inputNav {
+    width: 700px;
+    height: 55px;
+    border: 2px solid rgb(197, 197, 197);
+    box-sizing: border-box;
+    border-radius: 2px;
+    outline-color: rgb(0, 77, 231);
+    padding-left: 15px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.Special {
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    color: white;
+    border-radius: 10px;
+}
+
+.logoImg {
+    width: 60px;
+    height: 60px;
+}
+
+.WelcomeP {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.WelcomeImg {
+    width: 800px;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
 }
