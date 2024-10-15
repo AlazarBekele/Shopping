@@ -32,11 +32,3 @@ class SecondImg (models.Model):
 
     def __str__(self) -> str:
         return self.title
-    
-class SecCardImg (models.Model):
-
-    cardTitle = models.CharField (max_length=20)
-    CardImg = models.ImageField (upload_to='SecondCard/')
-
-    def __str__(self) -> str:
-        return self.cardTitle

@@ -9,7 +9,7 @@ def upload_Render (request):
 
     context = {
         'reader' : reader,
-        'BackImg' : BackImg
+        'BackImg' : BackImg,
     }
 
     return render (request, 'index.html', context=context)

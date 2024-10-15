@@ -1,11 +1,9 @@
 body {
-    padding: 0px 0px 50px 0px;
+    padding: 0px 0px 1000px 0px;
 }
 .ShoppingImg {
     overflow: hidden;
-    margin: 20px 0px 0px 0px;
     width: 100%;
-    height: 75vh;
     background: linear-gradient(45deg, rgb(126, 3, 209), rgb(1, 81, 201));
     border: none;
     box-shadow: 0px 25px 28px #adadad;
@@ -16,6 +14,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin: 20px 0px 10px 0px;
 }
 
 .Navbar {
@@ -129,8 +128,7 @@ body {
 }
 
 .MainOne {
-    padding: 10px 25px 0px 25px;
-    margin-bottom: 50px;
+    margin: 0px 20px 0px 20px;
 }
 
 .MainTwo {
@@ -158,17 +156,4 @@ body {
 .title {
     padding: 15px 0px 20px 0px;
     color: white;
-}
-
-.SecondCardContainer {
-    color: white;
-    display: inline-block;
-    transition: 0.5s;}
-
-.SecondCardContainer :hover {
-    background-image: url(https://img.freepik.com/free-photo/medium-shot-man-playing-basketball_23-2150910660.jpg?t=st=1728846074~exp=1728849674~hmac=daa47661e82526a1902e0213c0c1ea22492b75c32083767b83afbdf72442a153&w=1060);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    transition: 0.5s;
 }

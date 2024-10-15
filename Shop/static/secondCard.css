@@ -1,0 +1,123 @@
+.SecondCardContainer {
+    color: white;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.SecondCardContainer {
+    background-image: url(https://img.freepik.com/free-photo/medium-shot-man-playing-basketball_23-2150910660.jpg?t=st=1728846074~exp=1728849674~hmac=daa47661e82526a1902e0213c0c1ea22492b75c32083767b83afbdf72442a153&w=1060);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 100%;
+    border-radius: 5px;
+}
+.SecondCardContainer2 {
+    background-image: url(https://img.freepik.com/free-photo/portrait-person-playing-music-saxophone_23-2151051624.jpg?t=st=1728933372~exp=1728936972~hmac=a2e9c69af850b022a93e8f6c1ace60b5c40e96b8abee89cccad71c8f9b16e719&w=1060);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 100%;
+    border-radius: 5px;
+}
+.SecondCardContainer3 {
+    background-image: url(https://img.freepik.com/free-photo/little-children-sports-basketball-active_53876-137704.jpg?t=st=1728932941~exp=1728936541~hmac=615327d29c3649a8d5181f76caf90bea7bcb0e85dc47170ea085c8c85dbc1857&w=1060);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 100%;
+    border-radius: 5px;
+}
+.SecondCardContainer4 {
+    background-image: url(https://img.freepik.com/free-photo/neon-motherboard-background_23-2151704812.jpg?t=st=1728932871~exp=1728936471~hmac=c7d9b65c0792ee3bb6d4f64c8a9e4a84a60cb0ef08931399acb6552ea75a09d5&w=1380);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 100%;
+    border-radius: 5px;
+}
+.SecondCardContainer5 {
+    background-image: url(https://img.freepik.com/free-photo/men39s-clothes-hanger-generative-ai_169016-29035.jpg?t=st=1728932637~exp=1728936237~hmac=ed515d7e71673c7025437bca333115c123f4c94eba509f2e139bc89d4bd5f037&w=740);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 100%;
+    border-radius: 5px;
+}
+.SecondCardContainer6 {
+    background-image: url(https://img.freepik.com/free-photo/two-puppies-some-stone-steps_1268-24728.jpg?t=st=1728932553~exp=1728936153~hmac=1e4b8f5e7d54f6ded226292849b143531b132a147762986b8ed48916c6cd131b&w=1060);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 100%;
+    border-radius: 5px;
+}
+.SecondCardContainer7 {
+    background-image: url(https://img.freepik.com/free-photo/construction-silhouette_1127-3246.jpg?t=st=1728932509~exp=1728936109~hmac=04a55f08db55f39299e31dce60d55426d819206ccdfa8239f70abf1e95abda23&w=1060);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 100%;
+    border-radius: 5px;
+}
+.SecondCardContainer8 {
+    background-image: url(https://img.freepik.com/free-photo/flat-lay-health-still-life-arrangement-with-copy-space_23-2148854064.jpg?t=st=1728925003~exp=1728928603~hmac=da63281fc01f7dbe35f8c258a73124c7e54181db1d9497bd726a5d8f8f15f314&w=1380);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 100%;
+    border-radius: 5px;
+}
+
+
+
+
+
+.SecondCardContainer :hover {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
+.SecondCardContainer2 :hover{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
+.SecondCardContainer3 :hover{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
+.SecondCardContainer4 :hover{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
+.SecondCardContainer5 :hover{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
+.SecondCardContainer6 :hover{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
+.SecondCardContainer7 :hover{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
+.SecondCardContainer8 :hover{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
