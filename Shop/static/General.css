@@ -6,7 +6,7 @@ body {
     width: 100%;
     background: linear-gradient(45deg, rgb(126, 3, 209), rgb(1, 81, 201));
     border: none;
-    box-shadow: 0px 25px 28px #adadad;
+    box-shadow: 0px 0px 28px #adadad;
     border-radius: 10px;
 }
 
@@ -135,6 +135,7 @@ body {
     right: 0;
     background-color: rgb(149, 248, 255);
     padding: 10px 10px 10px 10px;
+    margin-top: 10px;
 }
 
 .cont {
@@ -181,7 +182,11 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-bottom: 20px;
+    margin: 10px 0px 20px 0px;
+    background-image: url(https://img.freepik.com/free-photo/background-gradient-lights_23-2149304985.jpg?t=st=1729173716~exp=1729177316~hmac=58214b6f2b44c26c8793cfc39e0ecf84cc3b9682898ba137798a2fdf5add08d1&w=1060);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .WelcomeImg {
