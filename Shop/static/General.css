@@ -19,6 +19,9 @@ body {
 
 .Navbar {
     margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .inputMain {
@@ -194,4 +197,10 @@ body {
     border-top-right-radius: 50%;
     border-bottom-left-radius: 50%;
     margin: 15px 0px 15px 0px;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
 }
