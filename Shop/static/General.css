@@ -225,3 +225,20 @@ ul {
     color: orangered;
     transition: 0.5s;
 }
+
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateX(-300px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.blockBox {
+    animation: appear 1s linear;
+}
