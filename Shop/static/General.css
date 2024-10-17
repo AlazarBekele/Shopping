@@ -1,5 +1,5 @@
 body {
-    padding: 0px 0px 1000px 0px;
+    padding: 0px 0px 0px 0px;
 }
 .ShoppingImg {
     overflow: hidden;
@@ -179,6 +179,7 @@ body {
 .logoImg {
     width: 60px;
     height: 60px;
+    margin-left: 20px;
 }
 
 .WelcomeP {
@@ -241,4 +242,43 @@ ul {
 
 .blockBox {
     animation: appear 1s linear;
+}
+
+@keyframes NavAnima {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.NavbarAnima {
+    animation: NavAnima 1s linear;
+}
+
+@keyframes CardAnimation {
+    from {
+        opacity: 0;
+        scale: 0;
+    }
+
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+
+.Location {
+    margin: 25px 0px 25px 0px;
+    background-image: url(https://img.freepik.com/free-photo/new-york-city_649448-1679.jpg?t=st=1729181202~exp=1729184802~hmac=f238a9b4317c4758de1345387e82531bbf8936e40da8a3b76967bf5e56c342ab&w=1060);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Mainlocation {
+    padding: 10px 10px 10px 30px;
 }
