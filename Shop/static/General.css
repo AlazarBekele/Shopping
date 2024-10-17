@@ -207,10 +207,21 @@ ul {
     font-size: 20px;
     margin-right: 40px;
     gap: 30px;
+    cursor: pointer;
 }
 
 .BookNow {
     border: 1px solid orangered;
     color: orangered;
     padding: 7px 15px 7px 15px;
+}
+.BookNow:hover {
+    transition: 0.5s ease;
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+}
+.lists:hover {
+    color: orangered;
+    transition: 0.5s;
 }
