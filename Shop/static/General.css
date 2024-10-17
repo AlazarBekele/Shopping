@@ -18,7 +18,7 @@ body {
 }
 
 .Navbar {
-    margin-bottom: 40px;
+    margin: 15px 0px 10px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -203,4 +203,14 @@ ul {
     text-decoration: none;
     list-style-type: none;
     display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-right: 40px;
+    gap: 30px;
+}
+
+.BookNow {
+    border: 1px solid orangered;
+    color: orangered;
+    padding: 7px 15px 7px 15px;
 }
